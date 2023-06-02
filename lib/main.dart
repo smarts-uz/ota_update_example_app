@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Pluginss example app'),
+          title: const Text('Plugin example app'),
         ),
         body: Center(
           child: Text('OTA status: ${currentEvent!.status} : ${currentEvent!.value} \n'),
